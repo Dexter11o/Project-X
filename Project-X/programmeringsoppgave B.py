@@ -28,3 +28,7 @@ def primtall():
             prim_liste.append(num)
         num += 1  # Gå videre til neste tall
     return prim_liste  # Returnerer listen med primtallene
+# Kaller funksjonen og lagrer resultatet i variabelen 'prim_tall'
+prim_tall = primtall()
+# Skriver ut listen med primtall
+print(prim_tall)
